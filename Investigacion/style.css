@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: sans-serif;}
+
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2018/07/youtube_0.jpg?itok=XxgiEtNp");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.capa{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: #38273b;
+    opacity: 0.7;
+}
+.parrafo{
+    z-index: 1;
+    width: 900px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+}
+.parrafo img{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
